@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background: grey;
+    padding: 0;
+    margin: 1px 0 0;
+    font: normal 14px Arial, Helvetica Sans-serif;
+    color: #666;
+    align-content: center;
+}
+a {
+    color: blueviolet;
+}
+a:hover {
+    color: mediumpurple;
+}
+.page-wrapper {
+    text-align: center;
+    background: #FFF;
+    width: 700px;
+    margin: auto;
+    position: relative;
+    padding: 0;
+}
+header {
+    width: 600px;
+    height: 220px;
+    align-items: center;
+    background: #666 url(http://www.imritz.com/wp-content/uploads/2015/10/css1.jpg) no-repeat;
+    margin-left: 50px;
+    padding: 0;
+}
+header h1,
+h2 {
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.summary {
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding: 0;
+    position: relative;
+    border-top: #FFF 1px solid;
+    width: 700px;
+    height: 75px;
+    background: #FFF;
+}
+.summary p {
+    margin: 0;
+    padding: 0;
+}
+.design-selection ul,
+.design-archives ul,
+.zen-resources ul {
+    margin: 0;
+    padding: 0 15px 5px 15px;
+}
+.design-selection li,
+.design-archives li,
+.zen-resources li {
+    padding: 0 0 5px 15px;
+    margin: 0;
+    list-style-type: none;
+    background: transparent no-repeat 0 4px;
+}
+.sidebar {
+    position: sticky;
+    top: 156px;
+    left: 560 width: 180;
+    text-align: center;
+    background: mediumpurple;
+    border-top: #fff 1px solid;
+    color: #fff;
+}
+.sidebar a {
+    color: #FFF;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    color: #FCD2B8;
+}
+footer {
+    background: white url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Quality-White-Wood-Texture.jpg);
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-bottom: 18px;
+}
